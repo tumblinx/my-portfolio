@@ -23,7 +23,15 @@ body, html {
   border-bottom: 2px solid #6272a4; /* A hint of color for separation */
   width: 100%;
 }
-
+.navlink {
+  color: #ff79c6; /* Neon pink for links */
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+.navlink:hover {
+  color: #50fa7b; /* Neon green for hover state */
+}
 nav {
   padding: 2px 0;
 }
@@ -37,7 +45,6 @@ nav a {
 nav a:hover {
   color: #50fa7b; /* Neon green for hover state */
 }
-
 section {
   padding: 20px;
   border-bottom: 1px solid #6272a4; /* Subtle separation between sections */
