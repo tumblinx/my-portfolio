@@ -5,7 +5,8 @@ import github from './assets/github.png';
 
 function Home() {
   return (
-    <div>
+    <div className="content-box">
+      <h2 className="overall-header">Home</h2>
       <h3 className="intro">Hey! I'm Drew</h3>
       <p> Have fun! </p>
       <div className="logo-display">

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function About() {
   /*const [count, setCount] = useState(0);*/
   return (
-    <div> 
+    <div className="content-box"> 
     <h2 className="overall-header">About</h2>
     <p>
       This is a simple React app that uses React Router to navigate between

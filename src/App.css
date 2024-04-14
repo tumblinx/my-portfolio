@@ -51,20 +51,21 @@ section {
   width: 80%; /* Adjust width as per your design preference */
 }
 
-h1, h2 {
+h1 {
   color: #f1fa8c; /* Neon yellow for headers */
+}
+h2 {
+  color: #03164d;
 }
 
 p {
   /*color: #f8f8f2; /* Brighter text color for paragraphs */
  /* color: #ff79c6
   /*color: #d3b88c;*/
+ color: #ff79c6;;
 }
-
-/* Additional styling for the "Welcome" section to stand out */
-#home {
-  color: #bd93f9; /* Soft purple for intro section */
-  padding-bottom: 40px;
+.intro{
+  color: #ff79c6;;
 }
 /* Old header stuff */
 /*.icon { 
@@ -95,7 +96,7 @@ p {
 .logo-display{
   display:flex;
   align-items: center;
-  
+  justify-content: center;
 }
 .logo-links{
   width: 6em;
@@ -114,5 +115,19 @@ p {
   background-position: center; 
   height: 100vh; 
   width: 100%;
+}
+.content-box {
+  background-color: rgba(255, 255, 255, 0.15); /* White with low opacity for a frosted glass effect */
+  backdrop-filter: blur(10px); /* This creates the frosted glass effect */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  padding: 2rem; /* Space inside the box */
+  margin-top: 2rem; /* Space from the top of the screen or previous content */
+  width: 80%; /* Taking up 80% of its container width */
+  max-width: 660px; /* Maximum width so it doesn't get too wide on large screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for definition */
+  color: #ffffff; /* Text color for content */
+  text-align: center; /* Align text to the left */
+  position: relative; /* Allows for absolute positioning inside the box */
 }
 
