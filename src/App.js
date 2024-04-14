@@ -8,9 +8,9 @@ import Home from './Home';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="background">
         <div className="App">
-          <header className="App-header"> 
+          <header> 
             <h1 className="header-text">
               Drew Tumblin's Portfolio</h1></header> 
             <div className="navbar">

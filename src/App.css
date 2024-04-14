@@ -56,7 +56,9 @@ h1, h2 {
 }
 
 p {
-  color: #f8f8f2; /* Brighter text color for paragraphs */
+  /*color: #f8f8f2; /* Brighter text color for paragraphs */
+ /* color: #ff79c6
+  /*color: #d3b88c;*/
 }
 
 /* Additional styling for the "Welcome" section to stand out */
@@ -105,5 +107,12 @@ p {
 .logo-links:hover{
  /* background-color: #4fc3dc;*/
   background-color:  #ff79c6;
+}
+.background {
+  background-image: url('../../../../wallpaper.png');
+  background-size: cover;  
+  background-position: center; 
+  height: 100vh; 
+  width: 100%;
 }
 
