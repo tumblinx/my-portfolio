@@ -30,7 +30,8 @@ body, html {
   font-size: 1.2rem;
 }
 .navlink:hover {
-  color: #50fa7b; /* Neon green for hover state */
+  color: #03164d;
+
 }
 nav {
   padding: 2px 0;
@@ -43,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #50fa7b; /* Neon green for hover state */
+  color: #03164d; /* Neon green for hover state */
 }
 section {
   padding: 20px;
@@ -62,10 +63,11 @@ p {
   /*color: #f8f8f2; /* Brighter text color for paragraphs */
  /* color: #ff79c6
   /*color: #d3b88c;*/
- color: #ff79c6;;
-}
+  color: #4a25bd;
+ }
+
 .intro{
-  color: #ff79c6;;
+  color: #4a25bd;
 }
 /* Old header stuff */
 /*.icon { 
