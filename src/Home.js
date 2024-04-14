@@ -6,8 +6,7 @@ import github from './assets/github.png';
 function Home() {
   return (
     <div className="content-box">
-      <h2 className="overall-header">Home</h2>
-      <h3 className="intro">Hey! I'm Drew</h3>
+      <h2 >Hey! I'm Drew</h2>
       <p> Have fun! </p>
       <div className="logo-display">
       <a href = "https://www.linkedin.com/in/drewtumblin/"><img src = {linkedin} className="logo-links"></img></a>
