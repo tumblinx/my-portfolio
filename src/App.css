@@ -21,7 +21,7 @@ body, html {
 .App-header {
   background-color: #282a36; /* Matching the body background */
   border-bottom: 2px solid #6272a4; /* A hint of color for separation */
-  width: 100%;
+  display: flex;
 }
 .navlink {
   color: #ff79c6; /* Neon pink for links */
@@ -63,5 +63,31 @@ p {
 #home {
   color: #bd93f9; /* Soft purple for intro section */
   padding-bottom: 40px;
+}
+/* Old header stuff */
+/*.icon { 
+  width: 15%;
+  float: left;
+  margin-right: 10px;
+}
+.header-text {
+  width: 80%;
+  float: right;
+}*/
+.icon {
+  display: flex;              /* Enables flexbox */
+  /*align-items: right;        /* Vertically centers the items in the header */
+  /*justify-content: flex-start; /* Aligns items to the left */
+  padding: 12px;              /* Adds some padding around the contents */
+  width: 20%;
+  height: auto;
+  margin-right: 1px;         /* Adds some space between the icon and the text */
+}
+
+.header-text {
+  align-items: center;        /* Vertically centers the items in the header */
+  margin-right: 1px;         /* Adds some space between the icon and the text */
+  width: 100%;                /* Example width, adjust as needed */
+  height: auto;               /* Keeps the aspect ratio of the image */
 }
 
