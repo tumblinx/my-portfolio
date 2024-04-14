@@ -132,5 +132,11 @@ p {
   color: #ffffff; /* Text color for content */
   text-align: center; /* Align text to the left */
   position: relative; /* Allows for absolute positioning inside the box */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.content-box:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  
+}
