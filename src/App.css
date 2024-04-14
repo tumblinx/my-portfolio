@@ -90,4 +90,20 @@ p {
   width: 100%;                /* Example width, adjust as needed */
   height: auto;               /* Keeps the aspect ratio of the image */
 }
+.logo-display{
+  display:flex;
+  align-items: center;
+  
+}
+.logo-links{
+  width: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  z-index: 2;
+}
+.logo-links:hover{
+ /* background-color: #4fc3dc;*/
+  background-color:  #ff79c6;
+}
 

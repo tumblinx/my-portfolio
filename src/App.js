@@ -4,7 +4,6 @@ import './App.css';
 import Projects from './Projects';
 import About from './About';
 import Home from './Home';
-import infinity from './assets/infinity.png';
 
 function App() {
   return (
