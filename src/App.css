@@ -125,7 +125,7 @@ p {
   border-radius: 10px; /* Rounded corners for a modern look */
   padding: 2rem; /* Space inside the box */
   margin-top: 2rem; /* Space from the top of the screen or previous content */
-  width: 40%; /* Taking up 80% of its container width */
+  width: 40%; /* originally 80%, made 40 for projects */
   max-width: 660px; /* Maximum width so it doesn't get too wide on large screens */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for definition */
@@ -134,7 +134,11 @@ p {
   position: relative; /* Allows for absolute positioning inside the box */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+@media (max-width: 768px) {
+  .content-box {
+    width: 80%; /* Taking up 80% of its container width */
+  }
+}
 .content-box:hover {
   transform: scale(1.1); 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
