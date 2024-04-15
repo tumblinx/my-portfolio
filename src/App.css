@@ -55,7 +55,7 @@ section {
 h1 {
   color: #f1fa8c; /* Neon yellow for headers */
 }
-h2 {
+h2, h3 {
   color: #03164d;
 }
 
@@ -125,7 +125,7 @@ p {
   border-radius: 10px; /* Rounded corners for a modern look */
   padding: 2rem; /* Space inside the box */
   margin-top: 2rem; /* Space from the top of the screen or previous content */
-  width: 80%; /* Taking up 80% of its container width */
+  width: 40%; /* Taking up 80% of its container width */
   max-width: 660px; /* Maximum width so it doesn't get too wide on large screens */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for definition */
@@ -136,7 +136,7 @@ p {
 }
 
 .content-box:hover {
-  transform: scale(1.05); 
+  transform: scale(1.1); 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   
 }

@@ -4,6 +4,7 @@ import './App.css';
 import Projects from './Projects';
 import About from './About';
 import Home from './Home';
+/*import AccessibilityPanel from "open-web-ay";*/
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
           </Routes>
-        </div>
+        </div> 
       </div>
     </Router>
   );
