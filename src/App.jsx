@@ -24,7 +24,12 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
           </Routes> 
-        </div> 
+        </div>  
+      <footer>
+        <div className="footer">
+          <p className="footer-text"> © 2024 Drew Tumblin</p>
+        </div>
+      </footer>
       </div>
     </Router>
   );

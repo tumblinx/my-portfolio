@@ -113,7 +113,7 @@ p {
   background-color:  #ff79c6;
 }
 .background {
-  background-image: url('../../../../wallpaper.png');
+  background-image: url('/home/carum/CompSci/wallpaper.png');
   background-size: cover;  
   background-position: center; 
   height: 100vh; 
@@ -143,4 +143,19 @@ p {
   transform: scale(1.1); 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   
+}
+.footer-text{
+  /* White text for copyright */
+  color: #ffffff;
+}
+.footer {
+  /* Fixed position at the bottom of the screen */
+ /*position: fixed;*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  text-align: center;
+
 }
