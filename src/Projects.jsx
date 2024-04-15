@@ -10,7 +10,7 @@ const Projects = () => {
       </div>
     <div className="content-box">
         <h3>Dance Dance Convulation</h3>
-        <p>This project is a beatmap generator for Dance Dance Revolution (DDR). This project allowed me to gain experience in python, as well as documenting code.</p>
+        <p>This project is a Machine Learning (ML) beatmap generator for Dance Dance Revolution (DDR). This project allowed me to gain experience in python, as well as documenting code. It currently uses a somewhat dated ML model, which is why we are planning to redo this project with a more modern model such as a Large Language Model (LLM) or a Generative Adversarial Network (GAN).</p>
       </div>
       <div className="content-box">
         <h3>Boop Game</h3>
@@ -18,7 +18,7 @@ const Projects = () => {
       </div>
       <div className="content-box">
         <h3>Linux</h3>
-        <p>I love tinkering with linux and currently have Gentoo running on my desktop PC with a custom kernel config. I also have a custom Fedora Sway config, running on a Apple Silicon M2 Macbook Pro. I eventually would like to contribute to the Asahi Linux project, after gaining some fundamental knowledge on Linux Development.</p>
+        <p>I've had a lot of fun tinkering with linux and currently have Gentoo running on my desktop PC with a custom kernel config. I also have a custom Fedora Sway config, running on a Apple Silicon M2 Macbook Pro. I eventually would like to contribute to the Asahi Linux project, after gaining some fundamental knowledge on Linux Development.</p>
       </div>
     </div>
   );
