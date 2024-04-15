@@ -10,7 +10,7 @@ const Projects = () => {
       </div>
     <div className="content-box">
         <h3>Dance Dance Convulation</h3>
-        <p>This project is a Machine Learning (ML) beatmap generator for Dance Dance Revolution (DDR). This project allowed me to gain experience in python, as well as documenting code. It currently uses a somewhat dated ML model, which is why we are planning to redo this project with a more modern model such as a Large Language Model (LLM) or a Generative Adversarial Network (GAN).</p>
+        <p>This research project is a Machine Learning (ML) beatmap generator for Dance Dance Revolution (DDR). This project allowed me to gain experience in python, as well as documenting code. It currently uses a somewhat dated ML model, which is why we are planning to redo this project with a more modern model such as a Large Language Model (LLM) or a Generative Adversarial Network (GAN).</p>
       </div>
       <div className="content-box">
         <h3>Boop Game</h3>
