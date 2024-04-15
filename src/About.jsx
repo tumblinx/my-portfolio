@@ -7,9 +7,7 @@ function About() {
   return (
     <div className="content-box"> 
     <h2 className="overall-header">About</h2>
-    <p>
-     This is a simple React app that I am using to learn web development.
-    </p>
+    <p>This is a simple React app that I am using to learn web development.</p>
     </div>
   );
 }

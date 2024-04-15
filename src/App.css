@@ -4,7 +4,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Fira Code', monospace;
-  background-color: #282a36; /* Dark background */
+  background-color: #2B2D42;
   color: #8f93a2; /* Soft text color for general readability */
 }
 
@@ -119,8 +119,8 @@ p {
   height: 100vh; 
   width: 100%;
 }
-.content-box {
-  background-color: rgba(255, 255, 255, 0.15); /* White with low opacity for a frosted glass effect */
+.content-box {          /* Original 'a' value was 0.15 */
+  background-color: rgba(255, 255, 255, 0.35); /* White with low opacity for a frosted glass effect */
   backdrop-filter: blur(10px); /* This creates the frosted glass effect */
   border-radius: 10px; /* Rounded corners for a modern look */
   padding: 2rem; /* Space inside the box */
