@@ -9,8 +9,8 @@ function Home() {
       <h2 >Hey! I'm Drew</h2>
       <p> Have fun! </p>
       <div className="logo-display">
-      <a href = "https://www.linkedin.com/in/drewtumblin/"><img src = {linkedin} className="logo-links" alt="linkedin-logo"></img></a>
-      <a href = "https://github.com/tumblinx/"><img src = {github} className="logo-links" alt="github-logo"></img></a>
+      <a href = "https://www.linkedin.com/in/drewtumblin/" target="_blank"><img src = {linkedin} className="logo-links" alt="linkedin-logo"></img></a>
+      <a href = "https://github.com/tumblinx/" target= "_blank"><img src = {github} className="logo-links" alt="github-logo"></img></a>
       </div>
     </div>
   );
