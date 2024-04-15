@@ -136,7 +136,7 @@ p {
 }
 @media (max-width: 768px) {
   .content-box {
-    width: 80%; /* Taking up 80% of its container width */
+    width: 65%; 
   }
 }
 .content-box:hover {
