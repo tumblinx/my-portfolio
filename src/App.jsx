@@ -4,7 +4,8 @@ import './App.css';
 import Projects from './Projects';
 import About from './About';
 import Home from './Home';
-/*import AccessibilityPanel from "open-web-ay";*/
+import Contact from './Contact';
+/*import AccessibilityPanel from "open-web-ay"; Testing with Accessibility features*/
 
 function App() {
   return (
@@ -18,16 +19,18 @@ function App() {
             <Link className="navlink" to="/my-portfolio">Home</Link>
             <Link className="navlink" to="/projects">Projects</Link>
             <Link className="navlink" to="/about">About</Link>
+            <Link className="navlink" to="/contact">Contact</Link>
           </div> 
           <Routes>
             <Route path="/my-portfolio" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes> 
         </div>  
       <footer>
         <div className="footer">
-          <p className="footer-text"> © 2024 Drew Tumblin</p>
+          <p className="footer-text"> © 2024 Drew Tumblin. All Rights Reserved.</p>
         </div>
       </footer>
       </div>

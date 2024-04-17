@@ -1,0 +1,21 @@
+form label{
+  color: #4a25bd;  
+  /*display: inline-block; /* Makes the label a block-level element inline */
+    width: 150px; /* Adjust width as necessary to accommodate the longest label */
+    text-align: left; /* Right-aligns the text of the label */
+    align-items: left; /* Aligns the text of the label vertically */
+    margin-right: 10px; /* Adds some space between the label and the input field */
+}
+input{
+    background-color: rgba(255, 255, 255, 5); /* Semi-transparent black background */
+    width: 40%;
+    /*width: calc(100% - 400px); /* Adjust width to take the remaining space */
+    /* Assumes label width + margin-right = 160px, adjust as necessary */ 
+}
+textarea { 
+    width: 90%; /* Sets the width of the textarea */
+    min-height: 150px; /* Minimum height */
+    resize: vertical; /* Allows the textarea to be resized vertically */
+    margin: auto; /* Centers the textarea horizontally */
+}
+
