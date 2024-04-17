@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #03164d; /* Neon green for hover state */
+  color: #03164d; 
 }
 section {
   padding: 20px;

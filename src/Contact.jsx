@@ -72,7 +72,7 @@ function Contact() {
                         required
                     />
                 </div>
-                <button type="submit">Send Message</button>
+                <button type="submit" className="submit">Send Message</button>
             </form>
         </div>
     );
