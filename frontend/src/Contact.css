@@ -1,0 +1,45 @@
+form label{
+  color: #4a25bd;  
+  /*display: inline-block; /* Makes the label a block-level element inline */
+    width: 150px; /* Adjust width as necessary to accommodate the longest label */
+    text-align: left; /* Right-aligns the text of the label */
+    align-items: left; /* Aligns the text of the label vertically */
+    margin-right: 10px; /* Adds some space between the label and the input field */
+}
+input{ 
+    background-color: #f2f0f7;
+    width: 40%; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box; /* Makes the padding and border included in the width */
+}
+textarea { 
+    background-color: #f2f0f7;
+    max-height: 300px; 
+    width: 90%; 
+    min-height: 150px; 
+    resize: vertical; /* Allows the textarea to be resized vertically */
+    margin: auto; /* Centers the textarea horizontally */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box; /* Makes the padding and border included in the width */
+}
+button { 
+    background-color: #4a25bd; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 10px 0;  
+    font-size: 16px;
+}
+.submit:hover { 
+    /* hot pink background color  */
+    background-color: #ff79c6; 
+}
