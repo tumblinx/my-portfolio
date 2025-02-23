@@ -116,7 +116,7 @@ p {
   background-color:  #ff79c6;
 }
 .background {
-  background-image: url('/home/carum/CompSci/wallpaper.png');
+  background-image: url('assets/wallpaper.png');
   background-size: cover;  
   background-position: center; 
   height: 100vh; 
