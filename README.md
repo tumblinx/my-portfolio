@@ -1,3 +1,6 @@
+# MIGRATION TO ANGULAR PROJECT
+This project was my first web development project and the code was very much thrown together. A much better project is in the progress of getting built, it will be built using Angular 17.
+
 # My Portfolio
 
 Welcome to the repository for my personal portfolio website. 
